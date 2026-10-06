@@ -1,0 +1,50 @@
+necesito hacer un sistema de gestión de tareas y evidencias para un docente,los alumnos deben  ingresar en el sistema y subir evidencias,
+el docente debe visualizar las tareas y evidencias de los alumnos.
+
+el docente seria el super usuario, el puede crear los perfiles de los alumnos (carma masiva) o captura individual, el docente pueder crear tareas asignar el tipo de tareas
+(tareas en casa, actividades y exposiciones, solo esas 3), el docente asigna la fecha de entrega de las tareas por lo que el tiempo limite sera hasta el dia de la asinacion ejemplo(si la tearea 
+se deja el dia lunes y la fecha de entrega es el viernes, se tienen 5 dias para poder entregarlo a las 23:59 del viernes), el docente puede visualizar las tareas asignadas, puede ver que alumno 
+ya entrego tarea y quien esta pendiente, despues de la fecha limite puede ver quien no entrego y quien si, despues de la fecha de entrega el docente puede evaluar la tarea en una escala del 1 al 10 
+(solo hasta que pase la fecha de entrega, cuando la calificacion en publicar le aparecen a los alumnos, el docente podria cancelar tareas pero no aditarlas (por que si el alumno empieza a trabajar y 
+las especificaciones de la tarea cambian el alumno deberia cambiar el trabajo), el docente puede editar datos y desactivar.
+
+el alumno puede iniciar sesion, puede visualizar el historial de tareas enviadas, puede tambien ver las evidencias de cada tarea y puede ver la calificacion, el almno recibe la notificacion de una nueva
+tarea o de tarea cancelada, e alumno puede subir evidencia de la tarea (solo puede subir un archivo por tarea y solo puuede subir archivos .pdf max 2mb)
+
+
+las entiddes que yo puedo listar son, docentes, alumnos, tareas, calificaciones
+
+
+stak tecnologico;
+vamos a trabajar con laravel 13, utilizando arquitectura mcv, php 8.4 y base de datos en sqlite 
+vamos a trabajar solcamente app.css, app.js y con platillas blade
+
+solcitud:generame archivo por archivo y codigo completo este proyecto , primero dime las carpetas y archivos que debo crear y me vas a dar codigo completo 
+dame primero las migraciones, despues las paginas o vistas y por ultimo dame el codigo de la platilla blade y las rutas.
+
+tambien necesito que mee des una seeder con un usuario de docente y con 15 alumnos.
+utiliza esta paleta de colores:
+ /* CSS HEX */
+--lavender-grey: #a09abcff;
+--lilac: #b6a6caff;
+--lavender: #d5cfe1ff;
+--lavender-2: #e1dee9ff;
+--almond-silk: #d4bebeff;
+y agrega un modo oscuro
+
+utiliza esta fuente de letras;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+toma como referencia para la interfaz de la captura que te di, para el inicio de sesion y para la platilla blade. necesito que la intefaz tenga un estilo moderno, tablas con bordes redondeados 
+sin degradados , sin utilizar emojis solo iconos svg utilizar un sidebar lateral para ejecutar solamente php 
+
+crear un inicio de sescion sencillo sin instalar librerias externas solo el controlador crear middleware de acceso
+
+la base de datos debe estar correctamente normalizada y declarada en las migraciones  para ejecutar solamente php artisan migrate:fresh --seed 
+
+recuerda darme el coigo completo en orden, la creacion de archivos y carpetas 
+
+   
+ 
